@@ -1,10 +1,21 @@
 package com.sun3;
-import com.wxp.test;
-
 public class test1 {
+    static int result=0;
+    static void compare(int resvalue,int target){
+        if(resvalue>target)
+            result=+1;
+        else if(resvalue<target)
+            result=-1;
+        else
+            result=0;
+    }
     public static void main(String[] args) {
-        Integer i1 = new Integer(23);
-        Integer i2 = new Integer(23);
-        System.out.println(i1.equals(i2));//true
+        compare(10,3);
+        System.out.println(result);
+        compare(2,4);
+        System.out.println(result);
+        compare(5,5);
+        System.out.println(result);
+
     }
 }
