@@ -1,4 +1,4 @@
-package com.sun;
+package com.sun3;
 
 /**
  * @author sun

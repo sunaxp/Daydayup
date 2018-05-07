@@ -1,4 +1,4 @@
-package com.sun;
+package com.sun3;
 
 public class PassObject {
     static void f(Letter l){
