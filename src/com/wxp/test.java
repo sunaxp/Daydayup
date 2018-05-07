@@ -3,7 +3,7 @@ import java.util.Random;
 
 public class test {
     public static void main(String[] args) {
-        Random rand = new Random(100);
+        Random rand = new Random(10);
         int i, j, k;
         j = rand.nextInt(100) + 1;
         System.out.println("j : " + j);
